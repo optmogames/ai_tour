@@ -13,3 +13,8 @@
 5. Run the **Azure ML/Train_Model_AutoML.ipynb** notebook. This will create an [Experiment](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#experiment) for model training with [Automated ML](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml). As part of that, you will create a configuration for accessing a shared [Datastore](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#datastore) and also a [Run Configuration](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#run-configuration) that defines the environment for your model training. After automatically training several models with Automated ML, you can retrieve information and the execution pipeline from the best [Run](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#run), as well as [Model Explainability](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml#model-explainability).
 
 6. Run the **Azure ML/Deploy_Model_AutoML.ipynb** notebook. This will create an Image with a score script that uses the best trained model retrieved from the Automated ML job for inference and a Deployment environment from where your score script will be exposed as a web service.
+
+#### To learn more:
+[Azure ML service notebooks on GitHub](https://github.com/Azure/MachineLearningNotebooks)
+[Microsoft Learn AI - Anomaly Detection & Predictive Maintenance](https://github.com/Azure/LearnAI-ADPM)
+[Microsoft Learn AI - Custom AI Airlift](https://github.com/Azure/LearnAI-CustomAI-Airlift)
