@@ -15,6 +15,9 @@
 6. Run the **Azure ML/Deploy_Model_AutoML.ipynb** notebook. This will create an Image with a score script that uses the best trained model retrieved from the Automated ML job for inference and a Deployment environment from where your score script will be exposed as a web service.
 
 #### To learn more:
+
 [Azure ML service notebooks on GitHub](https://github.com/Azure/MachineLearningNotebooks)
+
 [Microsoft Learn AI - Anomaly Detection & Predictive Maintenance](https://github.com/Azure/LearnAI-ADPM)
+
 [Microsoft Learn AI - Custom AI Airlift](https://github.com/Azure/LearnAI-CustomAI-Airlift)
