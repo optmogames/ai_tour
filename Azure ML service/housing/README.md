@@ -11,3 +11,11 @@
 4. Run the **Azure ML/Train_Model.ipynb** notebook. This will create an [Experiment](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#experiment) for model training. As part of that, you will create a configuration for accessing a shared [Datastore](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#datastore) and also a [Pytorch Estimator](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-train-pytorch) that defines the environment for your  Deep Learning model training.
 
 5. Run the **Azure ML/Train_Model_Hyperdrive.ipynb** notebook. It is similar to the notebook above, but it encapsulates the PyTorch Estimator into a [Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) object for automatic model hyperparameter tuning. You can then get information from your [Run](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#run) job to see which combination of hyperparameters gives you the best model according to your [primary metric](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters#specify-primary-metric) objective.
+
+#### To learn more:
+
+[Azure ML service notebooks on GitHub](https://github.com/Azure/MachineLearningNotebooks)
+
+[Microsoft Learn AI - Anomaly Detection & Predictive Maintenance](https://github.com/Azure/LearnAI-ADPM)
+
+[Microsoft Learn AI - Custom AI Airlift](https://github.com/Azure/LearnAI-CustomAI-Airlift)
